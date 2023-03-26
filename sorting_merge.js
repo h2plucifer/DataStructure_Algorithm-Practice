@@ -41,5 +41,5 @@ function merge(leftArr, rightArr) {
   }
   return combinedArray;
 }
-
+console.log('Initial array : ', arr);
 console.log('Array after merge sort : ', mergeSort(arr));

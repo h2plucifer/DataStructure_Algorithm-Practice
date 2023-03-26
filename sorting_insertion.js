@@ -7,5 +7,5 @@ for (let i = 1; i < arr.length; i++) {
   }
   arr[j + 1] = temp; //finally put temp element to j+1 position which will be a its sorted position from start
 }
-
+console.log('Initial array : ', arr);
 console.log('Array after insertion sort : ', arr);

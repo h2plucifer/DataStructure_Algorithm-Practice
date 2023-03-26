@@ -12,4 +12,5 @@ for (let i = arr.length - 1; i > 0; i--) {
     if (arr[j] > arr[j + 1]) [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; //shorter way to swap elements as array is mutable
   }
 }
+console.log('Initial array : ', arr);
 console.log('Array after bubble sort : ', arr);

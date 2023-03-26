@@ -14,4 +14,5 @@ for (let i = 0; i < arr.length; i++) {
   }
   [arr[minIndex], arr[i]] = [arr[i], arr[minIndex]]; //shorter way (as arrays are mutable)to swap new minIndex element with ith element
 }
+console.log('Initial array : ', arr);
 console.log('Array after selection sort : ', arr);
